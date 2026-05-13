@@ -1,0 +1,262 @@
+Task:
+You are a senior MERN stack full-stack developer and UI/UX engineer.
+
+Build a COMPLETE production-ready FULL STACK E-COMMERCE WEBSITE for a small Indian GENERAL STORE using the MERN stack. The project must be professional, scalable, modern, mobile responsive, and fully structured for development inside Replit.
+
+Please repeat the project requirements back as you understand them before starting development.
+
+Specifics:
+
+1. Tech Stack
+Frontend:
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Responsive UI/UX
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB Atlas
+- Mongoose
+
+2. Project Type
+Create a modern real-world e-commerce website for a small Indian general store selling daily-use products.
+
+Include realistic categories and products such as:
+- Chocolates
+- Biscuits
+- Soaps
+- Face powders
+- Washing powders
+- Hair oil
+- Toothpaste
+- Shampoo
+- Stationery
+- Kitchen items
+- Plastic items
+- Household products
+- Snacks
+- Cold drinks
+- Packaged food
+- Beauty products
+- Personal care products
+- Cleaning products
+- Small home-use products
+
+Generate realistic dummy product data and categories.
+
+3. IMPORTANT DEVELOPMENT ORDER
+STRICTLY follow this order:
+- First complete frontend
+- Then build backend
+- Then connect MongoDB
+
+Do not skip steps.
+
+4. FRONTEND REQUIREMENTS
+Build a modern, clean, responsive React frontend.
+
+Frontend Features:
+- Responsive UI
+- Navigation
+- Product listing
+- Product filtering
+- Product categories
+- Search functionality
+- Cart UI
+- Wishlist UI
+- Checkout UI
+- Authentication pages
+- Order history UI
+- Product reviews UI
+- Admin dashboard UI
+- Loading animations
+- Error handling UI
+- Toast notifications
+- Responsive navbar
+- Footer
+- Hero section
+- Banner sliders
+- Featured products
+- Offers section
+- Product detail pages
+- Quantity selector
+- Pagination
+- Mobile menu
+- Dark/light modern theme
+
+Frontend Pages:
+- Home page
+- Product listing page
+- Product details page
+- Category page
+- Cart page
+- Checkout page
+- Login page
+- Signup page
+- Forgot password page
+- User profile page
+- Orders page
+- Wishlist page
+- Contact page
+- About page
+- Admin dashboard
+
+Frontend Structure:
+- components
+- pages
+- services
+- hooks
+- context
+- redux or state management
+- routes
+- assets
+- styles
+
+Use:
+- React Router
+- Axios
+- Context API or Redux
+- Responsive CSS
+
+5. BACKEND REQUIREMENTS
+Start backend ONLY after frontend completion.
+
+Backend Responsibilities:
+- Authentication
+- Authorization
+- JWT authentication
+- Password encryption
+- REST APIs
+- Business logic
+- Order processing
+- Cart management
+- Payment integration
+- Product management
+- Admin management
+- Review system
+- Validation
+- Security
+- File uploads
+- Image uploads
+- Middleware
+- Error handling
+
+Backend Features:
+- Signup/login
+- JWT auth
+- Admin roles
+- Protected routes
+- Product CRUD
+- Category CRUD
+- Cart APIs
+- Wishlist APIs
+- Order APIs
+- Payment APIs
+- Review APIs
+- Search APIs
+- Filter APIs
+- Inventory management
+- Stock updates
+- Invoice generation
+- Email notification structure
+- Rate limiting
+
+Backend Structure:
+- controllers
+- routes
+- middleware
+- models
+- config
+- utils
+- services
+- validators
+
+Use:
+- Node.js
+- Express.js
+- JWT
+- bcrypt
+- multer
+- dotenv
+- express-validator
+
+6. DATABASE REQUIREMENTS
+Connect MongoDB ONLY after backend setup.
+
+Store:
+- Users
+- Products
+- Orders
+- Payments
+- Reviews
+- Wishlist
+- Cart
+- Categories
+- Inventory
+- Admin data
+- Addresses
+- Coupons
+- Order tracking
+
+Use:
+- MongoDB Atlas
+- Mongoose
+
+Create proper schemas and relationships.
+
+7. PAYMENT INTEGRATION
+Integrate:
+- Razorpay or Stripe
+
+Features:
+- Online payments
+- Payment verification
+- Failed payment handling
+- Order confirmation
+- Payment status tracking
+
+8. ADMIN PANEL
+Create a complete admin dashboard with:
+- Product management
+- User management
+- Order management
+- Category management
+- Inventory management
+- Revenue analytics
+- Sales analytics
+- Offer management
+
+9. DEVELOPMENT REQUIREMENTS
+- Explain every step clearly
+- Build step-by-step
+- Generate clean reusable code
+- Use scalable architecture
+- Add comments in important code
+- Explain frontend/backend setup separately
+- Explain npm installations
+- Add validations
+- Add proper error handling
+- Make UI modern and mobile responsive
+- Create production-ready API structure
+- Explain deployment process
+- Ensure Replit compatibility
+
+10. FINAL OUTPUT REQUIREMENTS
+Generate:
+- Complete folder structures
+- Frontend setup
+- Backend setup
+- Database setup
+- API structure
+- Example code files
+- Dummy data
+- Deployment instructions
+- Environment variable setup
+- Run commands
+
+Start from frontend setup first and continue professionally step-by-step.

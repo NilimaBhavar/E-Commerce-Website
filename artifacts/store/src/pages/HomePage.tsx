@@ -23,7 +23,7 @@ export function HomePage() {
         <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
           <div className="max-w-2xl">
             <Badge className="bg-white/20 text-white border-white/30 mb-4 text-sm">
-              India's Favourite Online Kirana
+              India's Favourite Online Store
             </Badge>
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
               Your Daily<br />Essentials,<br />
@@ -147,7 +147,7 @@ export function HomePage() {
       <section className="container mx-auto px-4 pb-12">
         <div className="bg-secondary text-secondary-foreground rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-2">New to DukaanBazar?</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">New to Tara Shop?</h2>
             <p className="text-secondary-foreground/80">Create an account and enjoy free delivery on your first order!</p>
           </div>
           <Button size="lg" className="bg-white text-secondary hover:bg-white/90 font-bold shrink-0" onClick={() => setLocation("/register")}>

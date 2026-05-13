@@ -20,7 +20,7 @@ export function ContactPage() {
   const info = [
     { icon: MapPin, label: "Address", value: "123, Chandni Chowk Market, Old Delhi, Delhi - 110006" },
     { icon: Phone, label: "Phone", value: "+91 98765 43210" },
-    { icon: Mail, label: "Email", value: "support@dukaanbazar.com" },
+    { icon: Mail, label: "Email", value: "support@tarashop.com" },
     { icon: Clock, label: "Hours", value: "Mon-Sat: 9am - 9pm | Sun: 10am - 6pm" },
   ];
 

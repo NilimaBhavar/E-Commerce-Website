@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Store className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold text-primary">DukaanBazar</span>
+              <span className="text-xl font-bold text-primary">Tara Shop</span>
             </Link>
             <p className="text-muted-foreground mb-4">
               Your neighbourhood Indian kirana store brought online. Daily essentials delivered fresh and fast.
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-muted-foreground/20 mt-8 pt-8 text-center text-muted-foreground text-sm">
-          &copy; {new Date().getFullYear()} DukaanBazar. All rights reserved.
+          &copy; {new Date().getFullYear()} Tara Shop. All rights reserved.
         </div>
       </div>
     </footer>

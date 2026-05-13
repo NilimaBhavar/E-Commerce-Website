@@ -34,7 +34,7 @@ export function RegisterPage() {
     registerMutation.mutate({ data }, {
       onSuccess: (res) => {
         login(res.token);
-        toast({ title: `Welcome to DukaanBazar, ${res.user.name}!` });
+        toast({ title: `Welcome to Tara Shop, ${res.user.name}!` });
         setLocation("/");
       },
       onError: () => {
@@ -53,7 +53,7 @@ export function RegisterPage() {
             </div>
           </div>
           <CardTitle className="text-2xl">Create account</CardTitle>
-          <CardDescription>Join DukaanBazar for the best deals</CardDescription>
+          <CardDescription>Join Tara Shop for the best deals</CardDescription>
         </CardHeader>
         <CardContent className="pt-4">
           <Form {...form}>

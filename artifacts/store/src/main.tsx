@@ -4,7 +4,7 @@ import "./index.css";
 
 const originalFetch = window.fetch;
 window.fetch = function(input, init) {
-  const token = localStorage.getItem("dukaan_token");
+  const token = localStorage.getItem("tara_token");
   if (token && typeof input === "string" && input.includes("/api/")) {
     init = { ...init, headers: { ...init?.headers, Authorization: `Bearer ${token}` } };
   }

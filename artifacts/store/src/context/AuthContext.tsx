@@ -22,7 +22,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [token, setToken] = useState<string | null>(localStorage.getItem("dukaan_token"));
+  const [token, setToken] = useState<string | null>(localStorage.getItem("tara_token"));
   const [, setLocation] = useLocation();
   const queryClient = useQueryClient();
 
@@ -35,12 +35,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   });
 
   const login = (newToken: string) => {
-    localStorage.setItem("dukaan_token", newToken);
+    localStorage.setItem("tara_token", newToken);
     setToken(newToken);
   };
 
   const logout = () => {
-    localStorage.removeItem("dukaan_token");
+    localStorage.removeItem("tara_token");
     setToken(null);
     queryClient.clear();
     setLocation("/");

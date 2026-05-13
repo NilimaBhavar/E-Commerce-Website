@@ -51,7 +51,7 @@ export function LoginPage() {
             </div>
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
-          <CardDescription>Sign in to your DukaanBazar account</CardDescription>
+          <CardDescription>Sign in to your Tara Shop account</CardDescription>
         </CardHeader>
         <CardContent className="pt-4">
           <Form {...form}>
@@ -84,7 +84,7 @@ export function LoginPage() {
             <Link href="/register" className="text-primary font-medium hover:underline">Create one</Link>
           </div>
           <div className="mt-3 p-3 bg-muted rounded-md text-xs text-muted-foreground">
-            <strong>Admin demo:</strong> admin@dukaanbazar.com / admin123
+            <strong>Admin demo:</strong> admin@dukaanbazar.com / admin123 (original seed)
           </div>
         </CardContent>
       </Card>

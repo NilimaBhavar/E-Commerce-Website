@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export function AboutPage() {
   const values = [
-    { icon: Shield, title: "Quality Assured", desc: "Every product on DukaanBazar is sourced from trusted brands and verified suppliers." },
+    { icon: Shield, title: "Quality Assured", desc: "Every product on Tara Shop is sourced from trusted brands and verified suppliers." },
     { icon: Truck, title: "Fast Delivery", desc: "Free delivery on orders above ₹500. Same-day delivery available in select areas." },
     { icon: Star, title: "Best Prices", desc: "We negotiate directly with brands to bring you the most competitive prices every day." },
     { icon: Users, title: "Community First", desc: "Started as a neighbourhood store, we serve thousands of families across India." },
@@ -11,9 +11,9 @@ export function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">About DukaanBazar</h1>
+        <h1 className="text-4xl font-bold mb-4">About Tara Shop</h1>
         <p className="text-lg text-muted-foreground">
-          DukaanBazar started with a simple idea: bring the warmth and convenience of your neighbourhood kirana store to the internet. We believe shopping for daily essentials should be simple, affordable, and trustworthy.
+          Tara Shop started with a simple idea: bring the warmth and convenience of your neighbourhood kirana store to the internet. We believe shopping for daily essentials should be simple, affordable, and trustworthy.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">

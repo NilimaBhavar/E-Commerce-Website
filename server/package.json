@@ -1,37 +1,23 @@
 {
   "name": "tara-shop-server",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "description": "Tara Shop backend - Express + MongoDB REST API",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "export NODE_ENV=development && node ./build.mjs && node --enable-source-maps ./dist/index.mjs",
-    "build": "node ./build.mjs",
-    "start": "node --enable-source-maps ./dist/index.mjs",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "seed": "node src/seed/index.js"
   },
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2",
-    "drizzle-orm": "catalog:",
-    "express": "^5",
-    "jsonwebtoken": "^9.0.3",
-    "pg": "^8.16.0",
-    "pino": "^9",
-    "pino-http": "^10",
-    "zod": "catalog:"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
   },
-  "devDependencies": {
-    "@types/bcrypt": "^6.0.0",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "catalog:",
-    "@types/pg": "^8.11.14",
-    "drizzle-zod": "^0.7.0",
-    "esbuild": "0.27.3",
-    "esbuild-plugin-pino": "^2.3.3",
-    "pino-pretty": "^13",
-    "thread-stream": "3.1.0",
-    "typescript": "^5.9.0"
+  "engines": {
+    "node": ">=18"
   }
 }
